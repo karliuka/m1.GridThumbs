@@ -44,8 +44,12 @@ class Faonni_GridThumbs_Model_Observer
     public function addThumbsColumn(Varien_Event_Observer $observer)
     {
 		$block = $observer->getEvent()->getBlock();
-		
-        if(($block instanceof Mage_Adminhtml_Block_Catalog_Product_Grid)) {
+
+        if($block instanceof Mage_Adminhtml_Block_Catalog_Product_Grid ||
+				$block instanceof Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Related ||
+					$block instanceof Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Upsell ||
+						$block instanceof Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Crosssell
+		){
             $block->addColumnAfter('image', array(
 				'header'   => Mage::helper('faonni_gridthumbs')->__('Image'),
 				'align'    => 'center',
