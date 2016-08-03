@@ -12,4 +12,4 @@ Download the plugin here: https://github.com/karliuka/m1.GridThumbs/archive/1.1.
 Installation
 -------
 
-Download the plugin and copy the 'app' folder to the root of your Magento installation.
+Download the plugin and copy the 'app' and 'skin' folder to the root of your Magento installation.
