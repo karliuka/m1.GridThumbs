@@ -16,7 +16,7 @@
  * versions in the future.
  * 
  * @package     Faonni_GridThumbs
- * @copyright   Copyright (c) 2015 Karliuka Vitalii(karliuka.vitalii@gmail.com) 
+ * @copyright   Copyright (c) 2017 Karliuka Vitalii(karliuka.vitalii@gmail.com) 
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Faonni_GridThumbs_Model_Observer
