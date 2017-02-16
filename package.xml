@@ -4,7 +4,7 @@
     <version>1.1.4</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
-    <channel>faonni</channel>
+    <channel>community</channel>
     <extends/>
     <summary>The Grid Thumbs extension adds a column with items images</summary>
     <description>Adds a column with items images to make product grid more informative and simplify the process of products searching.</description>
