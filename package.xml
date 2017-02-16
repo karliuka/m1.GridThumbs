@@ -1,29 +1,7 @@
 <?xml version="1.0"?>
-<!--
-/**
- * Faonni
- *  
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Open Software License (OSL 3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * http://opensource.org/licenses/osl-3.0.php
- *
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade module to newer
- * versions in the future.
- * 
- * @package     Faonni_GridThumbs
- * @copyright   Copyright (c) 2017 Karliuka Vitalii(karliuka.vitalii@gmail.com) 
- * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
--->
 <package>
     <name>Faonni_GridThumbs</name>
-    <version>1.1.3</version>
+    <version>1.1.4</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>faonni</channel>
@@ -31,7 +9,7 @@
     <summary>The Grid Thumbs extension adds a column with items images</summary>
     <description>Adds a column with items images to make product grid more informative and simplify the process of products searching.</description>
     <notes>The Grid Thumbs extension adds a column with items images</notes>
-    <authors/>
+    <authors><author><name>Karliuka Vitalii</name><user>karliuka</user><email>karliuka.vitalii@gmail.com</email></author></authors>
     <date/>
     <time/>
     <contents/>

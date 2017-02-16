@@ -8,7 +8,7 @@ Product catalog
 Related, Up-sell and Cross-sell products tabs
 <img alt="Magento GridThumbs" src="https://karliuka.github.io/m1/gridthumbs/related.png" style="width:100%"/>
 
-Download the plugin here: https://github.com/karliuka/m1.GridThumbs/archive/1.1.3.zip
+Download the plugin here: https://github.com/karliuka/m1.GridThumbs/archive/1.1.4.zip
 Installation
 -------
 
