@@ -24,7 +24,7 @@
 <config>
 	<modules>
 		<Faonni_GridThumbs>
-			<version>1.1.5</version>
+			<version>1.1.6</version>
 		</Faonni_GridThumbs>
 	</modules>
 	<global>
@@ -45,6 +45,13 @@
 		</models>		
 	</global>
 	<adminhtml>
+		<layout>
+			<updates>
+				<faonni_gridthumbs>
+					<file>faonni/gridthumbs.xml</file>
+				</faonni_gridthumbs>
+			</updates>
+		</layout>	
         <events>
             <catalog_product_collection_load_before>
                 <observers>
@@ -63,5 +70,13 @@
                 </observers>
             </core_block_abstract_prepare_layout_before>
         </events>
+        <thumbs>
+            <grid>
+				<Mage_Adminhtml_Block_Catalog_Product_Grid/>
+                <Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Related/>
+                <Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Upsell/>
+                <Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Crosssell/>
+            </grid>
+        </thumbs>        
     </adminhtml>	
 </config> 
