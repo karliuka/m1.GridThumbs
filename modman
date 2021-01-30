@@ -1,0 +1,3 @@
+app/code/community/Faonni/GridThumbs/ app/code/community/Faonni/GridThumbs/
+app/etc/modules/Faonni_GridThumbs.xml app/etc/modules/Faonni_GridThumbs.xml
+skin/adminhtml/default/default/images/catalog/product/placeholder/thumbnail.jpg skin/adminhtml/default/default/images/catalog/product/placeholder/thumbnail.jpg
