@@ -1,0 +1,21 @@
+{
+    "name": "faonni/magento-gridthumbs",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "The Grid Thumbs extension adds a column with items images",
+    "version": "1.2.0",
+    "authors": [{
+        "name": "Karliuka Vitalii",
+        "email": "karliuka.vitalii@gmail.com"
+    }],
+    "require": {
+        "openmage/magento-lts": ">=19.4.0"
+    },
+    "extra": {
+        "map": [
+            ["app/etc/modules/Faonni_GridThumbs.xml", "app/etc/modules/Faonni_GridThumbs.xml"],
+            ["app/code/community/Faonni/GridThumbs/", "app/code/community/Faonni/GridThumbs/"],
+            ["skin/adminhtml/default/default/images/catalog/product/placeholder/thumbnail.jpg", "skin/adminhtml/default/default/images/catalog/product/placeholder/thumbnail.jpg"]
+        ]
+    }
+}
